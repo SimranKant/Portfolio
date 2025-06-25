@@ -11,7 +11,7 @@ const achievements = [
   },
   {
     title: "Merit Scholarship (2nd Year)",
-    description: "Recognized for academic excellence and technical contribution through a full-stack MERN project.",
+    description: "Awarded for outstanding academic performance and dedication in the second year.",
     image: "achievement/merit2025.png",
   },
   {
