@@ -1,0 +1,55 @@
+/* Event Section Styling */
+.hackathon-section {
+  padding: 60px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.hackathon-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: white;
+}
+
+/* Grid Layout */
+.hackathon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.hackathon-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transform-origin: center;
+}
+
+.hackathon-img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  border: 2px solid black;
+  object-fit: contain;
+}
+
+.hackathon-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.hackathon-info h4 {
+  font-size: 1rem;
+  color: #007acc;
+  margin-bottom: 8px;
+}
+
+.hackathon-info p {
+  font-size: 0.95rem;
+  color: #444;
+}

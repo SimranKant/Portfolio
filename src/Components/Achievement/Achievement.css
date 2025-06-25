@@ -1,0 +1,87 @@
+.flip-card {
+  background-color: transparent;
+  width: 18rem;         /* Reduced from 300px */
+  height: 20rem;
+  perspective: 1000px;
+  margin: 1rem;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  backface-visibility: hidden;
+  overflow: hidden;
+}
+
+.flip-card-front {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.achievement-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-fit: contain;  /* Ensures full image is visible */
+  padding: 1rem;        /* Optional: adds spacing inside the card */
+   
+}
+
+.flip-card-back {
+  background-color: #fff;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  
+}
+.flip-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.achievement-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.view-more-btn {
+  background-color: black;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  
+  /* transition: background 0.3s ease; */
+}
+
+.view-more-btn:hover {
+  background-color: #e60045;
+  border: 1px solid white;
+}

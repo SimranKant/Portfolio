@@ -1,0 +1,61 @@
+.certification-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  margin: 2rem;
+}
+
+.certification-section {
+  padding: 40px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.certification-slider {
+  width: 100%;
+  padding: 2rem 1rem;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+.certification-slider .swiper-slide {
+  transition: transform 0.4s ease-in-out;
+}
+
+
+
+.swiper-pagination-bullet-active {
+  background: #ff0055 !important; /* or your theme color */
+}
+
+/* Initial state (invisible) */
+.fade-out {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* Animated state when in view */
+.fade-in-up {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.certification-card-wrapper {
+  transition: all 0.8s ease;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.card-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-hidden {
+  opacity: 0;
+  transform: translateY(50px);
+}

@@ -1,0 +1,129 @@
+/* Section Container */
+.skills-section {
+  padding: 2rem 1rem;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Main Heading */
+.skills-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Category Title */
+.category-title {
+  font-size: 1.8rem;
+  margin: 2rem 0 1rem;
+  color: white;
+}
+
+/* Grid Layout for Skill Icons */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+/* Wrapper for Each Category */
+.category-wrapper {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+}
+
+/* Animate when in view */
+.category-wrapper.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Skill Icon Box */
+.skill-icon {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  
+  width: 8rem;
+  height: 8rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease;
+}
+
+/* Animate Icon when in view */
+.skill-icon.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hover Effect */
+.skill-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  background-color: #ffe8ef;
+}
+
+/* Icon inside the box */
+.skill-icon svg {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #ff0055;
+}
+.custom-icon {
+  color: #ff0055;
+  font-size: 3rem;
+}
+
+
+/* Text under icon */
+.skill-name {
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Mobile Responsive Styling */
+@media (max-width: 600px) {
+  .skills-section {
+    padding: 1rem;
+  }
+
+  .skills-heading {
+    font-size: 2rem;
+  }
+
+  .category-title {
+    font-size: 1.4rem;
+  }
+
+  .skill-icon {
+    width: 6rem;
+    height: 6rem;
+    padding: 1rem;
+  }
+
+  .skill-icon svg {
+    font-size: 2rem;
+  }
+
+  .skill-name {
+    font-size: 0.85rem;
+  }
+}
+
+/* Project Card */
+
+
