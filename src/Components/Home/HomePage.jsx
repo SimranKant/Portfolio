@@ -22,30 +22,27 @@ export default function HomePage() {
           Hi I'm Simran Kant
         </h1>
         <h2
-          style={{
-            fontSize: "2rem",
-            marginTop: "1rem",
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <span style={{ marginRight: "0.5rem" }}>I am</span>
-          <span style={{ color: "white" }}>
-            <Typewriter
-              options={{
-                strings: [
-                  "Full Stack Developer",
-                  "Programmer",
-                  "BCA Student@VIT",
-                ],
-                autoStart: true,
-                loop: true,
-                delay: 75,
-                deleteSpeed: 50,
-              }}
-            />
-          </span>
-        </h2>
+  className="d-flex flex-column flex-md-row align-items-center justify-content-center"
+  style={{ fontSize: "2rem", marginTop: "1rem", textAlign: "center" }}
+>
+  <span className="me-md-2 mb-2 mb-md-0">I am</span>
+  <span style={{ color: "white" }}>
+    <Typewriter
+      options={{
+        strings: [
+          "Full Stack Developer",
+          "Programmer",
+          "BCA Student@VIT",
+        ],
+        autoStart: true,
+        loop: true,
+        delay: 75,
+        deleteSpeed: 50,
+      }}
+    />
+  </span>
+</h2>
+
         <p>
            A curious and creative developer who loves bringing projects to life through code. From interactive interfaces to backend logic, I enjoy every part of the development journey — always learning, always building.
 
