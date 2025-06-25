@@ -49,7 +49,7 @@ export default function EducationPage() {
                   <br />
                   {item.detail}
                 </p>
-                <span className="date">{item.date}</span>
+                <span className="date" style={{fontSize:"1rem"}}>{item.date}</span>
                 <span className="circle"></span>
               </li>
             );
