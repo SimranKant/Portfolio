@@ -73,7 +73,7 @@ export default function CertificationPage() {
         pagination={{ clickable: true }}
         autoplay={{
           delay: 2000,
-          disableOnInteraction: true,
+          disableOnInteraction: false,
         }}
         modules={[Pagination, Autoplay]}
         breakpoints={{
