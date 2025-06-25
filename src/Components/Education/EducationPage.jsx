@@ -6,8 +6,8 @@ export default function EducationPage() {
   const educationData = [
     {
       title: "BCA",
-      institution: "Vellore Institute Technology",
-      detail: "CGPA: 9.84",
+      institution: "Vellore Institute Technology,Vellore",
+      // detail: "CGPA: 9.84",
       date: "2023-2026",
     },
     {
