@@ -58,7 +58,7 @@ export default function HomePage() {
           }}
         >
           <a
-            href="https://www.linkedin.com/in/simran-kant-74056a281/"
+            href="https://leetcode.com/u/Simran_Kant/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -72,7 +72,8 @@ export default function HomePage() {
             <FaGithub size={30} className="social-icons" />
           </a>
           <a
-            href="https://leetcode.com/u/Simran_Kant/"
+          href="https://www.linkedin.com/in/simran-kant-74056a281/"
+            
             target="_blank"
             rel="noopener noreferrer"
           >
