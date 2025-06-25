@@ -43,7 +43,7 @@ export default function HomePage() {
   </span>
 </h2>
 
-        <p>
+        <p style={{fontSize: "1.25rem"}}>
            A curious and creative developer who loves bringing projects to life through code. From interactive interfaces to backend logic, I enjoy every part of the development journey — always learning, always building.
 
 
