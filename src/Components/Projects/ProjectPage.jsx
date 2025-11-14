@@ -63,23 +63,58 @@ const projects = [
     githubLink: "https://github.com/SimranKant/TravaNest.git",
      image:"project/travaNest.png",
   },
-  {
-    title: "Simon Say Game",
-    description:
-      "Simon Say Game is a fun and interactive memory game where players repeat an increasingly long sequence of flashing colored buttons. Test your focus and see how far you can go!",
-    features: [
-      "Real-time validation",
-      "High Score Tracker",
-      "Sequence gets longer with each level",
-      "Starts with any key press",
-    ],
+  // {
+  //   title: "Simon Say Game",
+  //   description:
+  //     "Simon Say Game is a fun and interactive memory game where players repeat an increasingly long sequence of flashing colored buttons. Test your focus and see how far you can go!",
+  //   features: [
+  //     "Real-time validation",
+  //     "High Score Tracker",
+  //     "Sequence gets longer with each level",
+  //     "Starts with any key press",
+  //   ],
 
-    technologies: ["HTML", "CSS", "JavaScript"],
-    liveLink: "https://simon-say-game-wine.vercel.app/",
-    githubLink: "https://github.com/SimranKant/SimonSayGame.git",
-    image:"project/simonSay.png",
-  },
+  //   technologies: ["HTML", "CSS", "JavaScript"],
+  //   liveLink: "https://simon-say-game-wine.vercel.app/",
+  //   githubLink: "https://github.com/SimranKant/SimonSayGame.git",
+  //   image:"project/simonSay.png",
+  // },
+  {
+  title: "WriteNow – Social Posting & Messaging App",
+  description:
+    "WriteNow is a full-stack social platform where users can create posts, interact through comments, manage profiles, and communicate through real-time private messaging. Built with scalability and user experience in mind, the app integrates secure authentication, responsive UI, and cloud-based media handling.",
   
+  features: [
+    "User Registration & Authentication – Secure session-based login system",
+    "Profile Management – Update details and upload profile pictures",
+    "Social Posting – Create, edit, and manage user posts",
+    "Comment System – Engage through user comments on posts",
+    "Real-Time Messaging – Instant private chat using WebSockets",
+    "Search Functionality – Find posts by keywords",
+    "User Dashboard – Centralized user activity overview",
+    "Responsive Design – Smooth interface across all devices"
+  ],
+
+  technologies: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "Socket.io",
+    "Cloudinary",
+    "EJS",
+    "REST APIs",
+    "Session-Based Authentication"
+  ],
+
+  liveLink: "https://writenow-gbdd.onrender.com/",
+  githubLink: "https://github.com/SimranKant/WriteNow.git",
+  image: "project/writenow.png",
+},
+
 
   // Add more projects here...
 ];
